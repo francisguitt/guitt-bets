@@ -10,5 +10,5 @@ export const api = axios.create({
 });
 
 export const apiBet = axios.create({
-    baseURL: `${process.env.BASE_URL}`
+    baseURL: `${process.env.BASE_URL_PROD}`
 })
